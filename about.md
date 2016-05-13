@@ -5,10 +5,11 @@ permalink: /about/
 ---
 
 I'm a father of three amazing kids and the husband of one loving wife.
+
 The line above is more than enough to fulfill one’s life, but I think that a mind is a shame to waste.
 With that in mind, I’ve learned Portuguese Accountancy and I’m currently working as an accountant of a big Portuguese Company.
-Nevertheless, feeling as a true lifelong learner, I never stopped learning and I’m currently perfecting my knowledge in web development.
-I’m constantly improving my understanding of HTML, CSS and JavaScript, trying to keep up with the most important news, frameworks and issues.
+
+Nevertheless, feeling as a true lifelong learner, I never stopped learning and I’m currently perfecting my knowledge in web development. I’m constantly improving my understanding of HTML, CSS and JavaScript, trying to keep up with the most important news, frameworks and issues.
 
 I’ve had some insight in C, C#, Visual Basic, SQL but now I’m learning the fantastic programming language that is Ruby. The satisfaction is real. Believe me.
 
