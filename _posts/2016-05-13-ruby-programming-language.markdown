@@ -20,6 +20,7 @@ A dynamic, open source programming language with a focus on simplicity and produ
 # Here is the Code:
 
 puts "Hello World!"
+
 {% endhighlight %}
 
 Check out the [Ruby site][ruby-site] for more info.
