@@ -6,14 +6,12 @@ categories: update
 ---
 If you are reading this is, maybe you should be sending me an email.
 
-Just another code snippet:
-
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
+def print_say_hi(name)
+  puts "Hi, #{name}!"
 end
-print_hi('Ricardo')
-#=> prints 'Hi, Ricardo' to STDOUT.
+print_say_hi('Ricardo')
+#=> prints 'Hi, Ricardo!' to STDOUT
 {% endhighlight %}
 
 [//]: # (Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].)
