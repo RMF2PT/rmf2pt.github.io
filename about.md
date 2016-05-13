@@ -19,5 +19,5 @@ With the understanding that comes natural to me in the progression of this learn
 You can find the source code for some of my works at:
 {% include icon-github.html username="rmf2pt" %} 
 
-If you are interested in my work or just want to share ideas, you can always reach me at {% include icon-twitter.html username="rmf2pt" %}
+If you are interested in my work or just want to share ideas, you can always reach me at: {% include icon-twitter.html username="rmf2pt" %}
 
