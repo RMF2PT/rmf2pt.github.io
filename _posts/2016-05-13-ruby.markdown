@@ -21,6 +21,6 @@ A dynamic, open source programming language with a focus on simplicity and produ
 puts "Hello World!"
 {% endhighlight %}
 
-Check out the [Ruby site][ruby-ite] for more info.
+Check out the [Ruby site][ruby-site] for more info.
 
-[jekyll-docs]: https://www.ruby-lang.org/en/
+[ruby-site]: https://www.ruby-lang.org/en/
