@@ -42,6 +42,7 @@ a:hover {
   position: absolute;
   right: 5%;
   float: right;
+  z-index: 4;
 }
 
 .sticky-buttons {
