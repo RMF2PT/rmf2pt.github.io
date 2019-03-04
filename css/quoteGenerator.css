@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto -66px;
+  background-size: cover;
+}
+
+.header, .content {
+  padding: 20px;
+}
+
+.credits {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  font-size: 0.7em;
+}
+
+.title {
+  border-radius: 25px;
+  background-color: rgba(230 ,230 ,230 , 0.5);
+  color: #343434;
+}
+
+h1 {
+  padding: 56px;
+}
+
+.well {
+  background-color: rgba(230 ,230 ,230 , 0.5);
+  border: none;
+  border-radius: 25px;
+}
+
+blockquote {
+  color: #343434;
+  border-left: none;
+  font-size: 1.6em; 
+  padding-bottom: 66px;
+}	
+
+blockquote:before {
+  color: #343434;
+  font-size: 30px;
+  line-height: 0.5em;
+  padding-right: 0.3em;
+  content: "\f10d";
+  font-family: FontAwesome;
+  float:left;
+}
+
+.btn {
+  background-color: rgba(141 ,141 ,141 , 0.75);
+  color: #141414;
+}
+
+.btn:hover {
+  border: 1px solid #141414;
+  color: #3b3b3b;
+}
+
+.btn:active, .btn:focus {
+  outline: none !important;
+}
+
+.btn-twitter {
+  background-color: #55ACEE;
+  color: #fff;
+}
+
+.btn-twitter em {
+  color: #fff;
+}
+
+.footer, .push{
+  width: 100%;
+  height: 66px;
+  border-radius: 0;
+  font-size: 1.5em;
+}
+.red {
+  color: #C00;
+}
+
+.footer a {
+  color: #9d9d9d;
+  text-decoration: none;
+  display: inline; 
+  padding: 10px;
+}
+
+.footer a em {
+  padding-top: 5px;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+}
+
+a:hover, a:active, a:focus {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+.iTwitter .fa:hover {
+  background-color: #55ACEE;    
+  color: #fff;
+  border-radius: 50%;
+}
+
+.iLinkedin .fa:hover {
+  background-color: #0077B5;    
+  color: #fff;
+  border-radius: 50%;
+}
+
+.iGithub .fa:hover, .iEmail .fa:hover  {
+  color: #fff;
+}

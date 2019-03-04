@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Random Quote Generator</title>
+  <script src="https://use.fontawesome.com/1acc8d4a15.js"></script> 
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+  <link rel="stylesheet" href="css/quoteGenerator.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="credits">
+        <a href="https://picsum.photos/" target="_blank">image by picsum.photos</a>
+      </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <h1 class="text-center title">Random Quote Generator</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="row well">
+          <div class="col-sm-10 col-sm-offset-1"> 
+            <blockquote>
+              <p class="quote"></p><br>
+              <p><em class="pull-right author"></em></p>
+            </blockquote>
+          </div>
+          <div class="col-sm-6">
+            <button class="pull-left btn btn-twitter" id="tweet"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet this</button>
+          </div>
+          <div class="col-sm-6">
+            <button class="pull-right btn" id="getNewQuote">Send me another quote</button>
+          </div>
+        </div><!--.row .well-->
+      </div><!--.container-->
+    </div><!--.content-->
+    <div class="push"></div>
+  </div><!--.wrapper-->
+
+  <div class="navbar navbar-inverse footer">
+    <div class="container">
+      <p class="navbar-text pull-left"><em class="fa fa-copyright" aria-hidden="true"></em> <script type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script> <em class="fa fa-code" aria-hidden="true"></em> with <em class="fa fa-heart-o red" aria-hidden="true"></em> by Ricardo Ferreira</p>
+      <div class="navbar-text inline pull-right">
+        <a href="https://www.twitter.com/rmf2pt" target="_blank" class="iTwitter"><em class="fa fa-twitter" aria-hidden="true"></em></a>
+        <a href="https://pt.linkedin.com/in/ricardomfferreira" target="_blank" class="iLinkedin"><em class="fa fa-linkedin" aria-hidden="true"></em></a> 
+        <a href="https://github.com/RMF2PT/" target="_blank" class="iGithub"><em class="fa fa-github" aria-hidden="true"></em></a>
+        <a href="mailto:rmf2pt@gmail.com" class="iEmail"><em class="fa fa-envelope" aria-hidden="true"></em></a>
+      </div>
+    </div>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="js/quoteGenerator.js"></script>
+</body>
