@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Vanilla JavaScript Item List</title>
+</head>
+<body>
+    <header id="main-header" class="bg-dark text-white p-4 mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 id="header-title">Vanilla JavaScript Item List</h1>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <input type="text" name="" id="filter" class="form-control" placeholder="Search items...">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="card card-body" id="main">
+            <form action="" id="addForm" class="form-inline mb-3">
+                <input type="text" id="item" class="form-control mr-2" placeholder="Item name">
+                <input type="submit" value="Add new item" class="btn btn-dark">
+            </form>
+            <h2 class="title">Items</h2>
+            <ul id="items" class="list-group">
+                <li class="list-group-item">Item 1 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+                <li class="list-group-item">Item 2 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+                <li class="list-group-item">Item 3 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+                <li class="list-group-item">Item 4 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
