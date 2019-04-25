@@ -1,188 +1,188 @@
 body {
-  position: relative;
-  font-size: 2em;
+	position: relative;
+	font-size: 2em;
 }
 
 a {
-  color: #000;
+	color: #000;
 }
 
 a:hover {
-  text-decoration: none;
-  color: #337AB7;
+	text-decoration: none;
+	color: #337ab7;
 }
 
 .jumbotron {
-  height: 999px;
-  padding-right: 66px;
-  margin-bottom: 0px;
-  background-image: url(https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/black-and-white-city-houses-skyline_zpshehsmtpj.JPG?raw=true);
-  background-position: 0% 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+	height: 999px;
+	padding-right: 66px;
+	margin-bottom: 0px;
+	background-image: url(https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/black-and-white-city-houses-skyline_zpshehsmtpj.JPG?raw=true);
+	background-position: 0% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .navbar {
-  height: 52px;
-  margin-left: -5px;
-  width: 101%;
-  z-index: 999;
+	height: 52px;
+	margin-left: -5px;
+	width: 101%;
+	z-index: 999;
 }
 
 .menu-padding {
-  padding-top: 50px;
+	padding-top: 50px;
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
+	position: fixed;
+	top: 0;
 }
 
 .social-buttons {
-  position: absolute;
-  right: 5%;
-  float: right;
-  z-index: 4;
+	position: absolute;
+	right: 5%;
+	float: right;
+	z-index: 4;
 }
 
 .sticky-buttons {
-  position: fixed;
-  top: 60px;
-  right: 1%
+	position: fixed;
+	top: 60px;
+	right: 1%;
 }
 
 .icon-circle .fa {
-  font-size: 20px;
-  color: #e84700;
-  margin: 0 auto;
-  margin-bottom: 5px;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  border: 2px solid #e84700;
-  line-height: 60px;
-  cursor: pointer;
-  -webkit-transition: all ease-in-out 0.35s;
-  -moz-transition: all ease-in-out 0.35s;
-  -o-transition: all ease-in-out 0.35s;
-  -ms-transition: all ease-in-out 0.35s;
-  transition: all ease-in-out 0.20s, background-color ease-in-out 0.05s;
+	font-size: 20px;
+	color: #e84700;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	border: 2px solid #e84700;
+	line-height: 60px;
+	cursor: pointer;
+	-webkit-transition: all ease-in-out 0.35s;
+	-moz-transition: all ease-in-out 0.35s;
+	-o-transition: all ease-in-out 0.35s;
+	-ms-transition: all ease-in-out 0.35s;
+	transition: all ease-in-out 0.20s, background-color ease-in-out 0.05s;
 }
 
-.icon-circle .fa:hover {  
-  background-color: #e84700;    
-  color: #fff;
-  border: 1px solid #e84711;
-  -moz-box-shadow: inset 0 0 0 5px #fff;
-  -o-box-shadow: inset 0 0 0 5px #fff;
-  -ms-box-shadow: inset 0 0 0 5px #fff;
-  -webkit-box-shadow: inset 0 0 0 5px #fff;
-  box-shadow: inset 0 0 0 5px #fff;
-  -ms-transform: scale(1.2,1.2); 
-  -webkit-transform: scale(1.2,1.2);
-  -moz-transform: scale(1.2,1.2); 
-  -o-transform: scale(1.2,1.2); 
-  transform: scale(1.2,1.2);  
+.icon-circle .fa:hover {
+	background-color: #e84700;
+	color: #fff;
+	border: 1px solid #e84711;
+	-moz-box-shadow: inset 0 0 0 5px #fff;
+	-o-box-shadow: inset 0 0 0 5px #fff;
+	-ms-box-shadow: inset 0 0 0 5px #fff;
+	-webkit-box-shadow: inset 0 0 0 5px #fff;
+	box-shadow: inset 0 0 0 5px #fff;
+	-ms-transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.2, 1.2);
+	-moz-transform: scale(1.2, 1.2);
+	-o-transform: scale(1.2, 1.2);
+	transform: scale(1.2, 1.2);
 }
 
-.icon-circle em:before {
-  margin-left: 0;
-  font-size: 30px;
+.icon-circle i:before {
+	margin-left: 0;
+	font-size: 30px;
 }
 
-@media (min-width:320px) and (max-width:768px) {
-  .icon-circle .fa {
-    font-size: 10px;
-    color: #e84700;
-    margin: 0 auto;
-    margin-bottom: 5px;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    border: 2px solid #e84700;
-    line-height: 20px;
-    cursor: pointer;
-    -webkit-transition: all ease-in-out 0.35s;
-    -moz-transition: all ease-in-out 0.35s;
-    -o-transition: all ease-in-out 0.35s;
-    -ms-transition: all ease-in-out 0.35s;
-    transition: all ease-in-out 0.20s, background-color ease-in-out 0.05s;
-  }
+@media (min-width: 320px) and (max-width: 768px) {
+	.icon-circle .fa {
+		font-size: 10px;
+		color: #e84700;
+		margin: 0 auto;
+		margin-bottom: 5px;
+		height: 30px;
+		width: 30px;
+		border-radius: 50%;
+		border: 2px solid #e84700;
+		line-height: 20px;
+		cursor: pointer;
+		-webkit-transition: all ease-in-out 0.35s;
+		-moz-transition: all ease-in-out 0.35s;
+		-o-transition: all ease-in-out 0.35s;
+		-ms-transition: all ease-in-out 0.35s;
+		transition: all ease-in-out 0.20s, background-color ease-in-out 0.05s;
+	}
 
-  .icon-circle .fa:hover {
-    background-color: #e84700;    
-    color: #fff;
-    border: 1px solid #e84711;
-    -moz-box-shadow: inset 0 0 0 5px #fff;
-    -o-box-shadow: inset 0 0 0 5px #fff;
-    -ms-box-shadow: inset 0 0 0 5px #fff;
-    -webkit-box-shadow: inset 0 0 0 5px #fff;
-    box-shadow: inset 0 0 0 5px #fff;
-    -ms-transform: scale(1.2,1.2); 
-    -webkit-transform: scale(1.2,1.2);
-    -moz-transform: scale(1.2,1.2); 
-    -o-transform: scale(1.2,1.2); 
-    transform: scale(1.2,1.2);  
-  }
+	.icon-circle .fa:hover {
+		background-color: #e84700;
+		color: #fff;
+		border: 1px solid #e84711;
+		-moz-box-shadow: inset 0 0 0 5px #fff;
+		-o-box-shadow: inset 0 0 0 5px #fff;
+		-ms-box-shadow: inset 0 0 0 5px #fff;
+		-webkit-box-shadow: inset 0 0 0 5px #fff;
+		box-shadow: inset 0 0 0 5px #fff;
+		-ms-transform: scale(1.2, 1.2);
+		-webkit-transform: scale(1.2, 1.2);
+		-moz-transform: scale(1.2, 1.2);
+		-o-transform: scale(1.2, 1.2);
+		transform: scale(1.2, 1.2);
+	}
 
-  .icon-circle em:before {
-    margin-left: 0;
-    font-size: 20px;
-  }   
+	.icon-circle i:before {
+		margin-left: 0;
+		font-size: 20px;
+	}
 }
 
 .iGithub .fa {
-  color: #171515;
-  border: 2px solid #171515;
+	color: #171515;
+	border: 2px solid #171515;
 }
 
 .iGithub .fa:hover {
-  background-color: #171515;    
-  color: #fff;
-  border: 1px solid #171515;
+	background-color: #171515;
+	color: #fff;
+	border: 1px solid #171515;
 }
 
 .iTwitter .fa {
-  color: #55ACEE;
-  border: 2px solid #55ACEE;
+	color: #55acee;
+	border: 2px solid #55acee;
 }
 
 .iTwitter .fa:hover {
-  background-color: #55ACEE;    
-  color: #fff;
-  border: 1px solid #55ACEE;
+	background-color: #55acee;
+	color: #fff;
+	border: 1px solid #55acee;
 }
 
 .iEmail .fa {
-  color: #A6A9AC;
-  border: 2px solid #A6A9AC;
+	color: #a6a9ac;
+	border: 2px solid #a6a9ac;
 }
 
 .iEmail .fa:hover {
-  background-color: #A6A9AC;    
-  color: #fff;
-  border: 1px solid #A6A9AC;
+	background-color: #a6a9ac;
+	color: #fff;
+	border: 1px solid #a6a9ac;
 }
 
 .iLinkedin .fa {
-  color: #0077B5;
-  border: 2px solid #0077B5;
+	color: #0077b5;
+	border: 2px solid #0077b5;
 }
 
 .iLinkedin .fa:hover {
-  background-color: #0077B5;    
-  color: #fff;
-  border: 1px solid #0077B5;
+	background-color: #0077b5;
+	color: #fff;
+	border: 1px solid #0077b5;
 }
 
 .footer {
-  height: 60px;
-  margin-bottom: 0;
+	height: 60px;
+	margin-bottom: 0;
 }
 .red {
-  color: #C00;
+	color: #c00;
 }
 
 .thumbnail {
-    border: none;
-   }
+	border: none;
+}
