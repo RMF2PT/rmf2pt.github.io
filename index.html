@@ -1,157 +1,177 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
   <meta charset="UTF-8">
-  <title>My Personal Page</title>
-  <script src="https://use.fontawesome.com/1acc8d4a15.js"></script> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+  
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
+
+  <title>My Personal Page</title>
 </head>
 
 <body>
   <div class="jumbotron logo">
-  <div class="text-right">
-    <h1>Hey there!</h1>
-    <p>My name is Ricardo Ferreira and I love Web Development!</p>
-    <p>Scroll down to see some of my projects...</p>
-    <p><a class="btn btn-primary btn-lg" href="#contact" role="button">Contact me!</a></p>
-    <div class="social-buttons animated">
-      <div class="text-center">
-        <div class="icon-circle">
-          <a href="https://twitter.com/RMF2PT/" target="_blank" class="iTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <div class="text-right">
+      <h1>Hey there!</h1>
+      <p>My name is Ricardo Ferreira and I love Web Development!</p>
+      <p>Scroll down to see some of my projects...</p>
+      <p><a class="btn btn-primary btn-lg" href="#contact" role="button">Contact me!</a></p>
+
+      <!-- Social buttons -->
+      <div class="social-buttons animated">
+        <div class="text-center">
+          <div class="icon-circle">
+            <a href="https://twitter.com/RMF2PT/" target="_blank" class="iTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+          </div>
         </div>
-      </div>
-      <div class="text-center">
-        <div class="icon-circle">
-          <a href="https://github.com/RMF2PT/" target="_blank" class="iGithub" title="Github"><i class="fa fa-github"></i></a>
+        <div class="text-center">
+          <div class="icon-circle">
+            <a href="https://github.com/RMF2PT/" target="_blank" class="iGithub" title="Github"><i class="fa fa-github"></i></a>
+          </div>
         </div>
-      </div>
-      <div class="text-center">
-        <div class="icon-circle">
-          <a href="mailto:rmf2pt@gmail.com" target="_blank" class="iEmail" title="Email"><i class="fa fa-envelope"></i></a>
+        <div class="text-center">
+          <div class="icon-circle">
+            <a href="mailto:rmf2pt@gmail.com" target="_blank" class="iEmail" title="Email"><i class="fa fa-envelope"></i></a>
+          </div>
         </div>
-      </div>
-      <div class="text-center">
-        <div class="icon-circle">
-          <a href="https://pt.linkedin.com/in/ricardomfferreira" target="_blank" class="iLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+        <div class="text-center">
+          <div class="icon-circle">
+            <a href="https://pt.linkedin.com/in/ricardomfferreira" target="_blank" class="iLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <nav class="navbar navbar-inverse" id="top-navbar">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>        
-        </button>
-        <a class="navbar-brand" href="#">Ricardo Ferreira</a>
-      </div>
+  <div data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse" id="top-navbar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>        
+          </button>
+          <a class="navbar-brand" href="#">Ricardo Ferreira</a>
+        </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-  
-  <div id="about" class="container content">
-    <h2 class="text-center">About</h2>
-    <p>I'm a father of four amazing kids and the husband of one loving wife.</p>
-    <p>The sentence above is more than enough to fulfill one’s life, but I think that a mind is a shame to waste.</p>
-    <p>As I'm not a mind waster, I’ve learned Portuguese Accountancy and I’m currently working as an Financial Team Lead of a big Portuguese Company that develops a fantastic ERP for companies to manage their business.</p>
-    <p>Nevertheless, feeling as a true lifelong learner, I never stopped learning and I’m currently perfecting my knowledge in web development. I’m constantly improving my knowledge of HTML, CSS and JavaScript, trying to keep up with the most important news, frameworks and issues.</p>
-    <p>I’ve had some insight in C, C#, Visual Basic, SQL, Python, React and lately I'm working with Ruby on Rails.</p>
-    <p>I’ve been building several web apps that make the internet a better place for all of us. A better place for your business, your blog, your presence in the web.</p>
-    <p>You can find the source code for some of my works at <a href="https://www.github.com/RMF2PT/" target="_blank"><i class="fa fa-github fa-1x"></i> Github</a>.</p>
-    <p>If you are interested in my work or just want to share ideas, you can always reach me at one of the links on the right.</p>
-  </div>
-
-  <div id="portfolio" class="container menu-padding">
-    <h2 class="text-center">Portfolio</h2>
-    <p class="text-center">Some of my most recent works. Click on the images to see the site.</p>
-    <br>
-    <div class="row">
-      <div class="col-md-4">
-        <a href="https://alpha-blog-rf.herokuapp.com/" target="_blank" class="thumbnail">
-          <p class="text-center">Alpha-Blog - a Ruby on Rails blog with authentication</p>  
-          <img src="https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/Screen%20Shot%202016-05-30%20at%2021.57.32_zpstn660ikj.PNG?raw=true" border="0" alt="Alpha Blog Project Photo" height="300"/>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="/projects/quotegenerator/quoteGenerator.html" target="_blank" class="thumbnail">
-          <p class="text-center">Random quote generator</p>
-          <img src="https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/shot-20160609-7789-ow8p4c_zpshhz82ff1.JPEG?raw=true" border="0" alt="Random Quote Generator Project Photo" height="300"/>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="https://codepen.io/rmf2pt/full/MmQqJK/"  target="_blank" class="thumbnail">
-          <p class="text-center">A Etch-A-Sketch clone in javascript</p>      
-          <img src="https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/Etch-A-Sketch_zps4jtwefi1.JPG?raw=true" border="0" alt="Etch A Sketch Project Photo" height="300"/>
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <a href="/projects/Vanilla JavaScript Item List/index.html" target="_blank" class="thumbnail">
-          <p class="text-center">An Item List made with JavaScript</p>  
-          <img src="/img/Vanilla_JS_Items_List.jpg" border="0" alt="Vanilla JavaScript Items List photo" height="300"/>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="https://rmf2pt.github.io/robofriends_2022/" target="_blank" class="thumbnail">
-          <p class="text-center">A friends list built with React and stylized with TailwindCSS</p>  
-          <img src="/img/robofriends.png" border="0" alt="Robofriends project photo" height="300"/>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="/projects/JS Stopwatch/index.html" target="_blank" class="thumbnail">
-          <p class="text-center">A Stopwatch made with JavaScript</p>  
-          <img src="/img/JS_Stopwatch.png" border="0" alt="Vanilla JavaScript Stopwatch photo" height="300"/>
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <a href="/projects/JS Clock/index.html" target="_blank" class="thumbnail">
-          <p class="text-center">A Clock made with JavaScript</p>  
-          <img src="/img/JS_Clock.png" border="0" alt="Vanilla JavaScript Clock photo" height="300"/>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div id="contact" class="container menu-padding">
-    <h2 class="text-center">Get in touch with me!</h2>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     
-    <p class="text-center">Ready to start your next project with me? Super! Give me a call or send me an email and I will get back to you ASAP!</p>
-    <br>
-    <span class="col-xs-6 text-center"><i class="fa fa-phone fa-4x"></i><br><span>___-___-___</span></span>
-    <span class="col-xs-6 text-center"><a href="mailto:rmf2pt@gmail.com"><i class="fa fa-envelope fa-4x"></i><br><span>rmf2pt@gmail.com</span></a></span>
-  </div>
-  <br>
-  
-  <div class="navbar navbar-inverse footer">
-    <div class="container">
-      <p class="navbar-text pull-left"><i class="fa fa-copyright" aria-hidden="true"></i> <script type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script> <i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart-o red" aria-hidden="true"></i> by Ricardo Ferreira</p>
+    <div id="about" class="container content">
+      <h2 class="text-center">About me</h2>
+      <p>I'm a father of four amazing kids and the husband of one loving wife.</p>
+      <p>The sentence above is more than enough to fulfill one’s life, but I think that a mind is a shame to waste.</p>
+      <p>As I'm not a mind waster, I’ve learned Portuguese Accountancy and I’m currently working as an Financial Team Lead of a big Portuguese Company that develops a fantastic ERP for companies to manage their business.</p>
+      <p>Nevertheless, feeling as a true lifelong learner, I never stopped learning and I’m currently perfecting my knowledge in web development. I’m constantly improving my knowledge of HTML, CSS and JavaScript, trying to keep up with the most important news, frameworks and issues.</p>
+      <p>I’ve had some insight in C, C#, Visual Basic, SQL, Python, React and lately I'm working with Ruby on Rails.</p>
+      <p>I’ve been building several web apps that make the internet a better place for all of us. A better place for your business, your blog, your presence in the web.</p>
+      <p>You can find the source code for some of my works at <a href="https://www.github.com/RMF2PT/" target="_blank"><i class="fa fa-github fa-1x"></i> Github</a>.</p>
+      <p>If you are interested in my work or just want to share ideas, you can always reach me at one of the links on the right.</p>
     </div>
+
+    <!-- TODO change my portfolio to a table list-->
+    <div id="portfolio" class="container menu-padding">
+      <h2 class="text-center">Portfolio</h2>
+      <p class="text-center">Some of my most recent works. Click on the images to see the site.</p>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="https://alpha-blog-rf.herokuapp.com/" target="_blank" class="thumbnail">
+            <p class="text-center">Alpha-Blog - a Ruby on Rails blog with authentication</p>  
+            <img src="https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/Screen%20Shot%202016-05-30%20at%2021.57.32_zpstn660ikj.PNG?raw=true" border="0" alt="Alpha Blog Project Photo" height="300"/>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="/projects/quotegenerator/quoteGenerator.html" target="_blank" class="thumbnail">
+            <p class="text-center">Random quote generator</p>
+            <img src="https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/shot-20160609-7789-ow8p4c_zpshhz82ff1.JPEG?raw=true" border="0" alt="Random Quote Generator Project Photo" height="300"/>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://codepen.io/rmf2pt/full/MmQqJK/"  target="_blank" class="thumbnail">
+            <p class="text-center">A Etch-A-Sketch clone in javascript</p>      
+            <img src="https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/Etch-A-Sketch_zps4jtwefi1.JPG?raw=true" border="0" alt="Etch A Sketch Project Photo" height="300"/>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="/projects/Vanilla JavaScript Item List/index.html" target="_blank" class="thumbnail">
+            <p class="text-center">An Item List made with JavaScript</p>  
+            <img src="/img/Vanilla_JS_Items_List.jpg" border="0" alt="Vanilla JavaScript Items List photo" height="300"/>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://rmf2pt.github.io/robofriends_2022/" target="_blank" class="thumbnail">
+            <p class="text-center">A friends list built with React and stylized with TailwindCSS</p>  
+            <img src="/img/robofriends.png" border="0" alt="Robofriends project photo" height="300"/>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="/projects/JS Stopwatch/index.html" target="_blank" class="thumbnail">
+            <p class="text-center">A Stopwatch made with JavaScript</p>  
+            <img src="/img/JS_Stopwatch.png" border="0" alt="Vanilla JavaScript Stopwatch photo" height="300"/>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="/projects/JS Clock/index.html" target="_blank" class="thumbnail">
+            <p class="text-center">A Clock made with JavaScript</p>  
+            <img src="/img/JS_Clock.png" border="0" alt="Vanilla JavaScript Clock photo" height="300"/>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div id="contact" class="container menu-padding">
+
+      <h2 class="text-center">Get in touch with me!</h2>
+      <p class="text-center">Ready to start your next project with me? Super! Give me a call or send me an email and I will get back to you ASAP!</p>
+      
+      <br>
+
+      <!-- Phone number -->
+      <span class="col-xs-6 text-center"><i class="fa fa-phone fa-4x"></i><br><span>___-___-___</span></span>
+
+      <!-- Email contact -->
+      <span class="col-xs-6 text-center"><a href="mailto:rmf2pt@gmail.com"><i class="fa fa-envelope fa-4x"></i><br><span>rmf2pt@gmail.com</span></a></span>
+    </div>
+    
+    <br>
+    
+    <!-- Footer -->
+    <div class="navbar navbar-inverse footer">
+      <div class="container">
+        <p class="navbar-text pull-left"><i class="fa fa-copyright" aria-hidden="true"></i>
+        <span id="currentYear"></span>
+        <i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart-o red" aria-hidden="true"></i> by Ricardo Ferreira</p>
+      </div>
+    </div>
+
+    <!-- JS scripts -->
+    <script src="https://use.fontawesome.com/1acc8d4a15.js"></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src="js/myScripts.js"></script>
+
   </div>
-</body>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-
-    <script src="js/index.js"></script>
-
 </body>
 </html>

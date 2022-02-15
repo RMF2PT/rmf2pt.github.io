@@ -15,3 +15,6 @@ $(document).ready(function () {
   }
   document.onscroll = scroll;
 });
+
+var y = new Date().getFullYear(); 
+document.getElementById('currentYear').innerHTML = y;
