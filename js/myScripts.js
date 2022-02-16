@@ -1,3 +1,6 @@
+// This function sticks the navbar on top 
+// and animates the social buttons 
+// when the initial viewport is scrolled down
 $(document).ready(function () {
   var menu = $('#top-navbar');
   var origOffsetY = menu.offset().top;
@@ -16,5 +19,6 @@ $(document).ready(function () {
   document.onscroll = scroll;
 });
 
+// Calculates the current year for the footer
 var y = new Date().getFullYear(); 
 document.getElementById('currentYear').innerHTML = y;

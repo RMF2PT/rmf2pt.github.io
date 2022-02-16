@@ -12,11 +12,10 @@ a:hover {
 	color: #337ab7;
 }
 
-.jumbotron {
+.initialvh {
 	height: 999px;
 	padding-right: 66px;
 	margin-bottom: 0px;
-	/* TODO redirect img link to inside img folder */
 	background-image: url(../img/black-and-white-city-houses-skyline_zpshehsmtpj.JPG?raw=true);
 	background-position: 0% 100%;
 	background-size: cover;
@@ -178,7 +177,8 @@ a:hover {
 
 .footer {
 	height: 60px;
-	margin-bottom: 0;
+	margin: 0;
+	width: 100%;
 }
 .red {
 	color: #c00;
