@@ -66,19 +66,3 @@ buttonReset.onclick = function() {
   buttonStop.disabled = true;
   buttonReset.disabled = true;
 };
-
-// var myInterval;
-// let i = 0;
-// function myTimer() {
-//   document.getElementById("demo").innerHTML = i;
-//   i++;
-// }
-
-// document.getElementById('btn-stop').addEventListener('click',function(){
-//   clearInterval(myInterval);
-//   myInterval = null; //clean myInterval
-// })
-
-// document.getElementById('btn-start').addEventListener('click',function(){
-//   myInterval = setInterval(myTimer, 1000);
-// })
