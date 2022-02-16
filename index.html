@@ -92,55 +92,60 @@
       <p class="text-center">Some of my most recent works. Click on the images to check it out.</p>
 
       <!-- TODO change my portfolio to a table list-->
-      <div class="row">
-        <div class="col-4">
-          <a href="https://alpha-blog-rf.herokuapp.com/" target="_blank" class="thumbnail">
-            <p class="text-center">Alpha-Blog - a Ruby on Rails blog with authentication</p>  
-            <img src="https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/Screen%20Shot%202016-05-30%20at%2021.57.32_zpstn660ikj.PNG?raw=true" border="0" alt="Alpha Blog Project Photo" height="150"/>
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="/projects/quotegenerator/quoteGenerator.html" target="_blank" class="thumbnail">
-            <p class="text-center">Random quote generator</p>
-            <img src="https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/shot-20160609-7789-ow8p4c_zpshhz82ff1.JPEG?raw=true" border="0" alt="Random Quote Generator Project Photo" height="150"/>
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="https://codepen.io/rmf2pt/full/MmQqJK/"  target="_blank" class="thumbnail">
-            <p class="text-center">A Etch-A-Sketch clone in javascript</p>      
-            <img src="https://github.com/RMF2PT/rmf2pt.github.io/blob/master/img/Etch-A-Sketch_zps4jtwefi1.JPG?raw=true" border="0" alt="Etch A Sketch Project Photo" height="150"/>
-          </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <a href="/projects/Vanilla JavaScript Item List/index.html" target="_blank" class="thumbnail">
-            <p class="text-center">An Item List made with JavaScript</p>  
-            <img src="/img/Vanilla_JS_Items_List.jpg" border="0" alt="Vanilla JavaScript Items List photo" height="150"/>
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="https://rmf2pt.github.io/robofriends_2022/" target="_blank" class="thumbnail">
-            <p class="text-center">A friends list built with React and stylized with TailwindCSS</p>  
-            <img src="/img/robofriends.png" border="0" alt="Robofriends project photo" height="150"/>
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="/projects/JS Stopwatch/index.html" target="_blank" class="thumbnail">
-            <p class="text-center">A Stopwatch made with JavaScript</p>  
-            <img src="/img/JS_Stopwatch.png" border="0" alt="Vanilla JavaScript Stopwatch photo" height="150"/>
-          </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <a href="/projects/JS Clock/index.html" target="_blank" class="thumbnail">
-            <p class="text-center">A Clock made with JavaScript</p>  
-            <img src="/img/JS_Clock.png" border="0" alt="Vanilla JavaScript Clock photo" height="150"/>
-          </a>
-        </div>
-      </div>
-    </div>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr class="text-center">
+            <th scope="col">Date</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Demo and source code</th>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <tr>
+            <th scope="row">2016</th>
+            <td>Alpha-Blog</td>
+            <td>Ruby on Rails blog app with authentication</td>
+            <td><a href="https://alpha-blog-rf.herokuapp.com/" target="_blank"><span class="iconify" data-icon="logos:heroku-icon"></span></a></td>
+          </tr>
+          <tr>
+            <th scope="row">2017</th>
+            <td>Etch-A-Sketch</td>
+            <td>Etch-A-Sketch clone made with JavaScript</td>
+            <td><a href="https://codepen.io/rmf2pt/full/MmQqJK/"  target="_blank"><span class="iconify" data-icon="ph:codepen-logo"></span></a></td>
+          </tr>
+          <tr>
+            <th scope="row">2019</th>
+            <td>Random quote generator</td>
+            <td>Random quote generator built with js and css</td>
+            <td><a href="/projects/quotegenerator/quoteGenerator.html" target="_blank"><span class="iconify" data-icon="ci:double-quotes-l"></span></a></td>
+          </tr>
+          <tr>
+            <th scope="row">2019</th>
+            <td>JS Item List</td>
+            <td>Item list made with JavaScript</td>
+            <td><a href="/projects/Vanilla JavaScript Item List/index.html" target="_blank"><span class="iconify" data-icon="ant-design:unordered-list-outlined"></span></a></td>
+          </tr>
+          <tr>
+            <th scope="row">2021</th>
+            <td>RobotFriends</td>
+            <td>A friends list built with React and stylized with TailwindCSS</td>
+            <td><a href="https://rmf2pt.github.io/robofriends_2022/" target="_blank"><span class="iconify" data-icon="akar-icons:github-fill"></span></a></td>
+          </tr>
+          <tr>
+            <th scope="row">2022</th>
+            <td>JS Stopwatch</td>
+            <td>Stopwatch made with JavaScript</td>
+            <td><a href="/projects/JS Stopwatch/index.html" target="_blank"><span class="iconify" data-icon="emojione:stopwatch"></span></a></td>
+          </tr>
+          <tr>
+            <th scope="row">2022</th>
+            <td>JS Clock</td>
+            <td>Clock made with JavaScript</td>
+            <td><a href="/projects/JS Clock/index.html" target="_blank"><span class="iconify" data-icon="akar-icons:clock"></span></a></td>
+          </tr>
+        </tbody>
+      </table>
 
     <!-- CTA -->
     <div id="contact" class="container fs-5 menu-padding">
@@ -177,6 +182,7 @@
 
     <!-- JS scripts -->
     <script src="https://use.fontawesome.com/1acc8d4a15.js"></script>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/myScripts.js"></script>
