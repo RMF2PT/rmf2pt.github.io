@@ -24,8 +24,6 @@ a:hover {
 
 .navbar {
 	height: 52px;
-	margin-left: -5px;
-	width: 101%;
 	z-index: 999;
 }
 
@@ -180,6 +178,7 @@ a:hover {
 	margin: 0;
 	width: 100%;
 }
+
 .red {
 	color: #c00;
 }
