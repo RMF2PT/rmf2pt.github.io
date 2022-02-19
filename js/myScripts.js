@@ -22,3 +22,19 @@ $(document).ready(function () {
 // Calculates the current year for the footer
 var y = new Date().getFullYear(); 
 document.getElementById('currentYear').innerHTML = y;
+
+// Gets the info for the modal to show the demo from the selected project
+var demoModal = document.getElementById('demoModal');
+demoModal.addEventListener('show.bs.modal', function (event) {
+  // Button that triggered the modal
+  var button = event.relatedTarget;
+  // Extract info from data-bs-* attributes
+  var demoURL = button.getAttribute('data-bs-url');
+  var demoName = button.getAttribute('data-bs-name');
+  // Update the modal's content.
+  var modalTitle = demoModal.querySelector('.modal-title');
+  var modalSource = document.getElementById('demoIframe');
+
+  modalTitle.textContent = demoName;
+  modalSource.src = demoURL;
+})
