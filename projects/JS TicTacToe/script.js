@@ -1,5 +1,7 @@
 let squares = [];
-let symbol = 'X';
+let symbol = '';
+let playerX = document.getElementById('playerX');
+let playerO = document.getElementById('playerO');
 
 function resetGame() {
   for (var i = 0; i < 9; i++) {
@@ -7,6 +9,21 @@ function resetGame() {
     squares[i].addEventListener('click', myChoice);
     squares[i].innerHTML = '';
     squares[i].removeAttribute('disabled');
+    symbol = 'X';
+    playerX.classList.remove('d-none');
+    playerO.classList.add('d-none');
+  }
+}
+
+function changePlayer() {
+  if (symbol == 'O') {
+    symbol = 'X';
+    playerX.classList.remove('d-none');
+    playerO.classList.add('d-none');
+  } else {
+    symbol = 'O';
+    playerO.classList.remove('d-none');
+    playerX.classList.add('d-none');
   }
 }
 
@@ -17,7 +34,7 @@ function myChoice() {
     alert(`Player ${symbol} is the winner!`);
     resetGame();
   } else {
-    symbol = symbol == 'X' ? 'O' : 'X'; // change symbol for next player
+    changePlayer();
   }
 }
 
