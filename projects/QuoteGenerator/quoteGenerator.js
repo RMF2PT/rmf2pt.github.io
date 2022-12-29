@@ -40,9 +40,9 @@ $(document).ready(function () {
     var quoteText = $('.quote').text().trim();
     var author = $('.author').text().trim();
     var tweetText = quoteText + " " + author;
-    if (tweetText.length > 140) {
+    if (tweetText.length > 280) {
       // truncate tweet without cutting any word in half
-      tweetText = tweetText.substring(0, 140).split(" ").slice(0, -1).join(" ") + "...";
+      tweetText = tweetText.substring(0, 280).split(" ").slice(0, -1).join(" ") + "...";
     }
     var tweetURL = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweetText);
     window.open(tweetURL, '', 'top=500,left=500,width=650,height=450');
